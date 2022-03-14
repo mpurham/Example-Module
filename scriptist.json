@@ -1,0 +1,31 @@
+{
+	"name": "Example Module",
+	"description": "Example script with custom library",
+	"version": "1.0.0",
+	"tags": [
+		"polypad",
+		"script",
+		"library"
+	],
+	"homepage": "https://polypad.io",
+	"license": "GPL",
+    "type": "script",
+	"authors": [
+		{
+			"name": "Marcell Purham",
+			"email": "m@marcell.me",
+			"homepage": "marcell.me"
+		}
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/mpurham/example-module"
+		}
+	],
+    "dependencies": [
+        {
+            "name": "myModule"
+        }
+    ]
+}
